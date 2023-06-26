@@ -1,0 +1,136 @@
+
+
+@media screen and (max-width: 480px){
+
+    .divBody{
+        margin: 0;
+        padding:0;
+        background: radial-gradient(circle at 50% 50%, #ff0000, #000);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 40%, #000000 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        
+        
+    }
+    .puzzleDiv{
+        height:560px;
+        width:320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+    }
+   
+
+    .box1{
+        height:55px;
+        width:55px;
+        margin:2px;
+    }
+
+    .box2{
+        height:55px;
+        width:55px;
+        background: radial-gradient( red, black);
+        border-style: solid;
+       
+    }
+    .position{
+       top:50px;
+        left:50%;
+    }
+  
+}
+
+@media only screen and (min-width: 481px) and (max-width:767px) {
+
+    .divBody{
+        margin: 0;
+        padding:0;
+        background: radial-gradient(circle at 50% 50%, #ff0000, #000);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 40%, #000000 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: auto;
+        
+    }
+    .puzzleDiv{
+        height:860px;
+        width:490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .box1{
+        height:85px;
+        width:85px;
+        margin:2px;
+    }
+
+    .box2{
+        height:85px;
+        width:85px;
+        background: radial-gradient( red, black);
+        border-style: solid;
+       
+    }
+    .position{
+       top:50px;
+        left:50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1200px) {
+
+    .divBody{
+        margin: 0;
+        padding:0;
+        background: radial-gradient(circle at 50% 50%, #ff0000, #000);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 40%, #000000 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: auto;
+        
+    }
+    .puzzleDiv{
+        height:860px;
+        width:490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .box1{
+        height:85px;
+        width:85px;
+        margin:2px;
+    }
+
+    .box2{
+        height:85px;
+        width:85px;
+        background: radial-gradient( red, black);
+        border-style: solid;
+       
+    }
+    .position{
+       top:50px;
+        left:50%;
+    }
+}

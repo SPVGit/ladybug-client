@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+
+import BugOnWall from "./pages/BugOnWall";
+import BugInSun from "./pages/BugInSun";
+import BugDragAndDrop from "./pages/BugDragAndDrop";
+import GeometricPainting from "./pages/GeometricPainting";
+import { Route, Routes } from "react-router-dom"
+import ScreenCapture from "./components/ScreenCapture";
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+
+       
+        <Route path='/bugonwall' element ={<BugOnWall />}/>
+          
+      
+        <Route path='/buginsun' element = {<BugInSun />}/>
+          
+        <Route path='/bugdraganddrop' element = {<BugDragAndDrop />}/>
+
+        <Route path='/geometricpainting' element = { <ScreenCapture/>}/>
+
+      </Routes>
+
+
     </div>
   );
 }
